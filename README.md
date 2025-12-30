@@ -2,7 +2,7 @@
 
 ![GitHub Created At](https://img.shields.io/github/created-at/muriloFsaidel/dslist)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/muriloFsaidel/dslist)
-![Gitea Last Commit](https://img.shields.io/gitea/last-commit/muriloFsaidel/dslist)
+![GitHub last commit](https://img.shields.io/github/last-commit/muriloFsaidel/dslist)
 ![GitHub language count](https://img.shields.io/github/languages/count/muriloFsaidel/dslist)
 
 
