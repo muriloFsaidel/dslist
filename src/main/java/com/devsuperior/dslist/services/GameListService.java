@@ -27,6 +27,12 @@ public class GameListService {
 		return result.stream().map(x -> new GameListDTO(x)).toList();
 	}
 	
+	@Transactional(readOnly = true)
+	public GameListDTO findById(Long listId) {
+		GameList result = gameListRepository.findById(listId).get();
+		return new GameListDTO(result);
+	}
+	
 	@Transactional
 	public void move (Long listId, int sourceIndex, int destinationIndex) {
 		List<GameMinProjection> list = gameRepository.searchByList(listId);
