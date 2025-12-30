@@ -8,10 +8,13 @@
 
 ## Intensivão Java SpringBoot Devsuperior
 
-  <p>O projeto foi concebido a partir da conclusão do intensivão SpringBoot da escola Devsuperior e ministrado pelo professor Nélio Alves.<br/>
+  <p>O projeto foi concebido a partir da conclusão da semana intensivão SpringBoot da escola Devsuperior e ministrado pelo professor Nélio Alves.<br/>
      Conteúdo do intensivão teve como objetivo construir uma aplicação back-end Java com SpringBoot, manipulação de banco de dados H2,PostgresSQL via JpaRepository e teste de requisição via Postman/Insomnia, teste de homologação com uso do banco de dados PostgresSql e PgAdmin em containers Docker de forma local e explicação teórica e prática de implantação do projeto na nuvem Railway que por motivos de custos, serviu como aprendizado para criar instância do PostgresSQL, variáveis de ambiente, e esteira CI/CD ao integrar o repositório do GitHub a nuvem Railway.  
    </p>
    <br/>
+   <p>
+    Github de referência da semana Intensivão SpringBoot Devsuperior com explicações da montagem do app e configurações de ferramentas: https://github.com/devsuperior/dslist-backend
+   </p>
    
   ## Conceitos
   
