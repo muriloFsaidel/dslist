@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.devsuperior.dslist.dto.GameListDTO;
 import com.devsuperior.dslist.entities.GameList;
+import com.devsuperior.dslist.handlers.InvalidListException;
 import com.devsuperior.dslist.projections.GameMinProjection;
 import com.devsuperior.dslist.repositories.GameListRepository;
 import com.devsuperior.dslist.repositories.GameRepository;
@@ -36,6 +37,9 @@ public class GameListService {
 	@Transactional
 	public void move (Long listId, int sourceIndex, int destinationIndex) {
 		List<GameMinProjection> list = gameRepository.searchByList(listId);
+		if(list.isEmpty()) {
+			throw new InvalidListException("Lista inexistente!, favor informar uma lista válida");
+		}
 		
 		GameMinProjection obj = list.remove(sourceIndex);
 		list.add(destinationIndex, obj);
