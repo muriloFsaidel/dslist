@@ -107,7 +107,7 @@ especial
 
 
 # Explicação Geral	
-  - [Explicação Geral](https://www.youtube.com/watch?v=)
+  - [Explicação Geral](https://www.youtube.com/watch?v=YvMdH2-vk7g&feature=youtu.be)
   
 # Autor
 
